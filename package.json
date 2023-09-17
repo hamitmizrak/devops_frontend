@@ -38,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy":"host.docker.internal:4444"
+  "proxy":"https://host.docker.internal:4444"
 }
