@@ -9,9 +9,9 @@ services:
     ports: 
       - "3000:3000"
     networks:
-      - spring_frontend 
+      - springmysql 
 
 networks:
-  spring_frontend:
-    name: spring_frontend
+  springmysql:
+    name: springmysql
     driver: bridge     
