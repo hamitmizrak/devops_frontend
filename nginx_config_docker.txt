@@ -1,0 +1,33 @@
+docker-compose -f deneme-docker-compose up
+docker build -t my-app .
+
+docker network ls 
+docker network inspect springmysql
+
+docker ps
+docker container logs webserver
+
+docker container logs containerID
+//////////////////////////////////////////////////////
+winpty docker container exec -it webserver  sh
+ls -al
+vi /etc/nginx/conf.d/default.conf
+reboot
+
+vi /etc/nginx/nginx.conf
+
+cat /etc/nginx/nginx.conf
+cat /usr/share/nginx/html
+
+cat /etc/nginx/conf.d/default.conf
+cat /usr/share/nginx/html/index.html
+
+cat /etc/os-release
+
+////////////////////////////////////////////////
+host.docker.internal
+http://localhost:4444/
+http://host.docker.internal:4444/
+
+http://localhost:3000/category/list
+http://localhost:80
